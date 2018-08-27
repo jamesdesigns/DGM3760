@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PHP Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway" rel="stylesheet">
+</head>
+<body>
+	<div id="intro">
+	<h1>Please help me find Fang.</h1>
+	<p class="story">Share your story of alien abduction:</p>
+	</div>	
+	<form action="report.php" method="post">
+		<fieldset>
+		<label for="firstname">First Name</label>
+		<input type="text" id="firstname" name="firstname" placeholder="Your name.." /><br />
+		<label for="lastname">Last Name</label>
+		<input type="text" id="lastname" name="lastname" placeholder="Your last name.." /><br />
+		<label for="email">What is your email address?</label>
+		<input type="text" id="email" name="email" /><br />
+		<label for="whenithappend">When did it happen?</label>
+		<input type="text" id="whenithappend" name="whenithappend" /><br />
+		<label for="howlong">How long were you gone?</label>
+		<input type="text" id="howlong" name="howlong" /><br />
+		<label for="howmany">How many did you see?</label>
+		<input type="text" id="howmany" name="howmany" /><br />
+		<label for="aliendescription">Describe them:</label>
+		<input type="text" id="aliendescription" name="aliendescription" /><br />
+		<label for="whattheydid">What did they do to you?</label>
+		<input type="text" id="whattheydid" name="whattheydid" /><br />
+		<label for="fangspotted">Have you seen my dog Fang?</label><br />
+		<input type="radio" id="fangspotted" name="fangspotted" value="Yes" /> Yes<br />
+		<input type="radio" id="fangspotted" name="fangspotted" value="No" /> No<br />
+		<img src="https://www.petguide.com/wp-content/uploads/2013/02/pug1.jpg" alt="My abducted dog Fang." width="260" height="190" /><br /><br />
+		<label for="other">Anything else you want to add?</label><br />
+		<textarea id="other" name="other"></textarea><br />
+		  
+		<input type="submit" value="Report Abduction" name="submit" />
+		</fieldset>
+	</form>
+</body>
+</html>		

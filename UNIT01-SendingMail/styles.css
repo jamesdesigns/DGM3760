@@ -1,0 +1,93 @@
+/* CSS Stylesheet */
+
+body {
+       min-height: 100%;
+	background: #ccc;
+	font-family: 'Raleway', sans-serif;
+	font-size: .9rem;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5rem;
+	color: #000;
+}
+
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+}
+
+form {
+	margin-left: 25%;
+	margin-right: 25%;
+	color: #181818;
+	font-family: 'Raleway', sans-serif;
+	font-size: .9rem;
+}
+
+form fieldset {
+	padding: 30px;
+	border: 1px solid #fff;
+	border-radius: 25px;
+	background-color: #fff;
+}
+
+input {
+	padding: 8px;
+}
+
+input[type=text], select {
+	width: 100%;
+	padding 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px sold #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #ff9900;
+	color: #fff;
+	padding:14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #cc6600;
+}
+
+input:focus {
+    background-color: #ffff99;
+}
+
+.story {
+	margin-top: -15px;
+        margin-left: 5px;
+        color: #fff;
+        font-size: 1rem; 
+}
+
+#form {
+	background-color: #ccc;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+#intro {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+textarea {
+       width: 100%;
+}
