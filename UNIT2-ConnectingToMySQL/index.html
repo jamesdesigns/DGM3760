@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 2 - Connecting to MySQL</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+</head>
+<body>
+  <div id="glob_content">
+
+    <div id="title">Contact Bank of America</div>
+
+    <div id="form_content">
+
+        <form method="POST" action="form.php">
+           <label for="display-name">Name:</label>
+           <input type="text" name="name" placeholder="Name">
+
+           <label for="display-name">Email:</label>
+           <input type="email" name="email" placeholder="Email">
+
+           <label for="display-name">Account Number:</label><br>
+           <input type="text" name="accountNumber" placeholder="Account Number"><br>
+
+           <label for="display-name">Phone:</label> 
+           <input type="text" name="phone" placeholder="Phone"><br>
+
+           <label for="display-name">What product do you have questions about?</label>
+           <select name="products">
+            <option value="banking">Banking</option>
+            <option value="mortgage">Mortgage</option>
+            <option value="savings">Savings</option>
+            <option value="investments">Investments</option>
+          </select><br><br>
+
+          <label for="display-name">How do you rate our service?</label><br>
+          <div id="service">
+            <ul>
+              <li><input class="service" type="radio" name="service" value="Very Satisfied" checked> Very Satisfied<br></li>
+              <li><input type="radio" name="service" value="Satisfied" checked> Satisfied<br></li>
+              <li><input type="radio" name="service" value="Dissatisfied"> Dissatisfied<br></li>
+              <li><input type="radio" name="service" value="I want my money back"> I want my money back</li>
+           </ul>
+          </div><br><br> 
+
+           <label for="display-name">We welcome your feedback:</label>  
+           <textarea name="message" placeholder="Message"></textarea>
+
+           <input type="submit" name="submit" value="SUBMIT">  
+        </form> 
+
+    </div>
+  </div>
+
+</body>
+</html>
