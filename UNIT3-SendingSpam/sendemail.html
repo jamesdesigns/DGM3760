@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Unit 3 - Sending Spam and Sending the Email</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+</head>
+<body>
+  <div id="glob_content">
+
+    <div id="title">Newsletter Email Message</div>
+
+    <div id="form_content">
+    <p><b>Private:</b> For James use ONLY</p>
+      <p>Write and send an email to mailing list members.</p>
+
+        <form method="POST" action="sendemail.php">
+           <label for="subject">Subject of email:</label><br>
+           <input type="text" name="subject" size="60"><br>
+
+           <label for="jamesmail">Message:</label><br>
+            <textarea type="email" name="jamesmail" rows="8" cols="60"></textarea><br>
+
+
+           <input type="submit" name="submit" value="SUBMIT">  
+        </form> 
+
+    </div>
+  </div>
+
+</body>
+</html>
