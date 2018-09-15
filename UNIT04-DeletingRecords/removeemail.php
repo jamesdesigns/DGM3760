@@ -22,9 +22,6 @@ $host = 'localhost:8889';
 $user = 'root';
 $password = 'root';
 $dbase = 'request_database';
-// $table = 'email_list';
-
-// Page 218 of Head First PHP to finalize and validate the form!
 
 // Connection to Database    
 $dbc = mysqli_connect($host, $user, $password, $dbase) or die('Error connecting to MySQL server.');
