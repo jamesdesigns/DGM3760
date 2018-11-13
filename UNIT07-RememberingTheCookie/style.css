@@ -1,0 +1,199 @@
+body {
+    margin:0;
+    font-family: 'verdana', sans-serif;
+    font-size:95%;
+}
+
+.tbody-home {
+     display:flex;
+   flex-direction:row; 
+}
+
+tbody {
+    width:40%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-left: 2%;
+}
+
+table {
+    margin:2%;
+    display:flex;
+}
+
+
+.home-tr {
+    flex-direction: column;
+}
+
+.home-td {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-left: 2%;
+}
+
+form {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.btn {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    margin-top:1%;
+    border-radius:8px;
+}
+
+.btn:hover, .btn:active {
+    background-color:#fff;
+    border:2px solid red;
+    color:red;
+}
+
+tr {
+   display:flex; 
+}
+
+td {
+    margin:0 10px;
+}
+
+img {
+    flex-direction:column;
+    border-radius: 50%;
+    border:3px solid #629898;
+}
+
+.profileImg {
+    margin-top:15px;
+    margin-left:-60px;
+}
+
+.footer {
+  text-align: left;
+  font-size: 80%;
+}
+
+.error {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.login {
+  font-style: italic;
+  margin-left: 2%;
+}
+
+form {
+    margin-top: 2%;
+}
+
+form label {  display: inline-block;  width: 100px;
+  font-weight: bold;
+}
+
+input {
+    margin-bottom: 4px;
+    padding:5px;
+    font-size: 100%;
+}
+
+select {
+    padding:5px;
+    font-size: 100%;
+    margin-bottom: 4px;
+}
+
+#new_picture {
+    padding:5px;
+    font-size: 100%;
+}
+
+td.label {
+  font-weight: 600;
+  color:#629898;
+}
+
+img.profile {
+  vertical-align: top;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 320%;
+    color: red;
+    margin-top: 0px;
+    margin-left: 2%;
+    
+}
+
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125%;
+    margin-top:-4.5%;
+    margin-left:5%;
+    color: red;
+}
+
+.menu {
+    background-color: red;
+    padding: 1.5%;
+    color: #fff;
+}
+
+.menu a {
+    color:#fff;
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    font-family: 'verdana', sans-serif;
+    padding: 6px;
+    border-radius:8px;
+}
+
+.menu a:hover, a:active {
+    color:red;
+    border-radius: 8px;
+    background-color:#fff;
+}
+
+a {
+    margin-left: 2%;
+    margin-right:2%;
+    text-decoration: none;
+    color: #629898;
+}
+
+.name-title {
+    margin-left:0;
+    font-size: 140%;
+}
+
+a:hover, a:active {
+    color:red;
+}
+
+.custom hr {
+    color: red;
+}
+
+.social {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius:0;
+    margin-top:-35px;
+    float: right;
+}
+
+footer {
+    background-color:#629898;
+    color: #fff;
+    height:200px;
+    padding-top:10px;
+}
