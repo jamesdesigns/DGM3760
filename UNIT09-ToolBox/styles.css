@@ -1,0 +1,81 @@
+body {
+    font-family: verdana, sans-serif;
+    color:#707070;
+}
+
+#container {
+    margin: 3%;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0099cc;
+}
+
+.srch {
+    color: #882E2C;
+}
+
+td {
+    color: #808080;
+}
+
+tr.heading {
+  color: #882E2C;
+}
+
+tr.results {
+  font-size: smaller;
+  color: #000000;
+}
+
+.description {
+      color:  #66ccff;
+}
+
+.mySearch {
+    margin-top:0.5%;
+    border-radius: 5px;
+    width:200px;
+    padding:8px;
+}
+
+.search {
+    color: #ffa31a;
+}
+
+.btn {
+    margin-top:1%;
+    font-size: 100%;
+    border-radius:5px;
+    width: 100px;
+    padding: 8px;
+    color: #fff;
+    background-color: #66ccff;
+}
+
+.btn:hover, .btn:active {
+    color: #fff;
+    background-color: #ffa31a;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color:  #66ccff;
+}
+
+a:hover {
+  color: #000;
+  text-decoration:underline;
+}
+a:visited {
+  color:  #66ccff;
+}
+
+a:active {
+  color: #000;
+  text-decoration:underline;
+}
